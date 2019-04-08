@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/freak/Documents/performer-hardware/sequencer.sch)
-    (date "2019 April 07, Sunday 11:06:51")
+    (date "2019 April 08, Monday 15:45:35")
     (tool "Eeschema (5.0.2-5)-5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -223,7 +223,7 @@
       (tstamp 59DC0C9C))
     (comp (ref JP1)
       (value USB_A)
-      (footprint w_connector:MOLEX_USB_105057)
+      (footprint w_connector:Kycon_USB_KUSBVLPX-AS1N)
       (datasheet http://datasheet.octopart.com/105057-0001-Molex-datasheet-48881000.pdf)
       (fields
         (field (name MFN) Molex)
@@ -2060,7 +2060,7 @@
       (tstamp 59D9583D))
     (comp (ref J3)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2103,7 +2103,7 @@
       (tstamp 59D95DE1))
     (comp (ref J4)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2135,7 +2135,7 @@
       (tstamp 59D95E09))
     (comp (ref J5)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2178,7 +2178,7 @@
       (tstamp 59D96AFA))
     (comp (ref J6)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2221,7 +2221,7 @@
       (tstamp 59D970DB))
     (comp (ref J12)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2231,7 +2231,7 @@
       (tstamp 59D98BF9))
     (comp (ref J14)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2241,7 +2241,7 @@
       (tstamp 59D99393))
     (comp (ref J16)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2251,7 +2251,7 @@
       (tstamp 59D99402))
     (comp (ref J18)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2261,7 +2261,7 @@
       (tstamp 59D99413))
     (comp (ref J20)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2271,7 +2271,7 @@
       (tstamp 59D9988E))
     (comp (ref J22)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2281,7 +2281,7 @@
       (tstamp 59D9989F))
     (comp (ref J24)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2291,7 +2291,7 @@
       (tstamp 59D998B0))
     (comp (ref J26)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2301,7 +2301,7 @@
       (tstamp 59D998C1))
     (comp (ref J11)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2311,7 +2311,7 @@
       (tstamp 59D9C08F))
     (comp (ref J13)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2321,7 +2321,7 @@
       (tstamp 59D9C0A0))
     (comp (ref J15)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2331,7 +2331,7 @@
       (tstamp 59D9C0B1))
     (comp (ref J17)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2341,7 +2341,7 @@
       (tstamp 59D9C0C2))
     (comp (ref J19)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2351,7 +2351,7 @@
       (tstamp 59D9C0D3))
     (comp (ref J21)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2361,7 +2361,7 @@
       (tstamp 59D9C0E4))
     (comp (ref J23)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2371,7 +2371,7 @@
       (tstamp 59D9C0F5))
     (comp (ref J25)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2480,7 +2480,7 @@
       (tstamp 59DF155B))
     (comp (ref J7)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2534,7 +2534,7 @@
       (tstamp 59DF7A26))
     (comp (ref J8)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2588,7 +2588,7 @@
       (tstamp 59DFAD47))
     (comp (ref J9)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2642,7 +2642,7 @@
       (tstamp 59DFB771))
     (comp (ref J10)
       (value PJ301BM)
-      (footprint w_connector:PJ301BM)
+      (footprint w_connector:PJ301M-12_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2707,7 +2707,7 @@
       (tstamp 59E00FD6))
     (comp (ref J1)
       (value PJ301CM)
-      (footprint w_connector:PJ301CM_OFFSET)
+      (footprint w_connector:PJ366ST_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/WQP-PJ301CM-40.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")
@@ -2717,7 +2717,7 @@
       (tstamp 59DD452A))
     (comp (ref J2)
       (value PJ301CM)
-      (footprint w_connector:PJ301CM_OFFSET)
+      (footprint w_connector:PJ366ST_Compact)
       (datasheet http://www.qingpu-electronics.com/en/products/WQP-PJ301CM-40.html)
       (fields
         (field (name MFN) "Wenzhou QingPu Electronics")

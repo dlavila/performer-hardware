@@ -34,7 +34,7 @@ U 1 1 59D9587D
 P 1100 1800
 F 0 "J3" H 900 1600 50  0000 C CNN
 F 1 "PJ301BM" H 900 2000 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 1250 1900 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 1250 1900 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 1250 1900 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 900 1700 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 900 1700 50  0001 C CNN "MFP"
@@ -122,7 +122,7 @@ U 1 1 59D95DE7
 P 1100 3400
 F 0 "J4" H 900 3200 50  0000 C CNN
 F 1 "PJ301BM" H 900 3600 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 1250 3500 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 1250 3500 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 1250 3500 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 900 3300 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 900 3300 50  0001 C CNN "MFP"
@@ -196,7 +196,7 @@ U 1 1 59D96412
 P 4900 1500
 F 0 "J5" H 4700 1300 50  0000 C CNN
 F 1 "PJ301BM" H 4700 1700 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 5050 1600 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 5050 1600 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 5050 1600 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 4700 1400 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 4700 1400 50  0001 C CNN "MFP"
@@ -273,7 +273,7 @@ U 1 1 59D970A1
 P 4900 3200
 F 0 "J6" H 4700 3000 50  0000 C CNN
 F 1 "PJ301BM" H 4700 3400 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 5050 3300 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 5050 3300 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 5050 3300 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 4700 3100 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 4700 3100 50  0001 C CNN "MFP"
@@ -350,7 +350,7 @@ U 1 1 59D98BF9
 P 9000 900
 F 0 "J12" H 8800 700 50  0000 C CNN
 F 1 "PJ301BM" H 8800 1100 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 9150 1000 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 9150 1000 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 9150 1000 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 8800 800 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 8800 800 50  0001 C CNN "MFP"
@@ -374,7 +374,7 @@ U 1 1 59D99393
 P 9000 1600
 F 0 "J14" H 8800 1400 50  0000 C CNN
 F 1 "PJ301BM" H 8800 1800 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 9150 1700 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 9150 1700 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 9150 1700 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 8800 1500 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 8800 1500 50  0001 C CNN "MFP"
@@ -398,7 +398,7 @@ U 1 1 59D99402
 P 9000 2300
 F 0 "J16" H 8800 2100 50  0000 C CNN
 F 1 "PJ301BM" H 8800 2500 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 9150 2400 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 9150 2400 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 9150 2400 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 8800 2200 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 8800 2200 50  0001 C CNN "MFP"
@@ -422,7 +422,7 @@ U 1 1 59D99413
 P 9000 3000
 F 0 "J18" H 8800 2800 50  0000 C CNN
 F 1 "PJ301BM" H 8800 3200 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 9150 3100 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 9150 3100 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 9150 3100 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 8800 2900 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 8800 2900 50  0001 C CNN "MFP"
@@ -446,7 +446,7 @@ U 1 1 59D9988E
 P 9000 3700
 F 0 "J20" H 8800 3500 50  0000 C CNN
 F 1 "PJ301BM" H 8800 3900 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 9150 3800 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 9150 3800 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 9150 3800 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 8800 3600 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 8800 3600 50  0001 C CNN "MFP"
@@ -470,7 +470,7 @@ U 1 1 59D9989F
 P 9000 4400
 F 0 "J22" H 8800 4200 50  0000 C CNN
 F 1 "PJ301BM" H 8800 4600 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 9150 4500 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 9150 4500 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 9150 4500 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 8800 4300 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 8800 4300 50  0001 C CNN "MFP"
@@ -494,7 +494,7 @@ U 1 1 59D998B0
 P 9000 5100
 F 0 "J24" H 8800 4900 50  0000 C CNN
 F 1 "PJ301BM" H 8800 5300 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 9150 5200 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 9150 5200 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 9150 5200 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 8800 5000 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 8800 5000 50  0001 C CNN "MFP"
@@ -518,7 +518,7 @@ U 1 1 59D998C1
 P 9000 5800
 F 0 "J26" H 8800 5600 50  0000 C CNN
 F 1 "PJ301BM" H 8800 6000 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 9150 5900 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 9150 5900 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 9150 5900 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 8800 5700 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 8800 5700 50  0001 C CNN "MFP"
@@ -542,7 +542,7 @@ U 1 1 59D9C08F
 P 10600 900
 F 0 "J11" H 10400 700 50  0000 C CNN
 F 1 "PJ301BM" H 10400 1100 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 10750 1000 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 10750 1000 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 10750 1000 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 10400 800 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 10400 800 50  0001 C CNN "MFP"
@@ -566,7 +566,7 @@ U 1 1 59D9C0A0
 P 10600 1600
 F 0 "J13" H 10400 1400 50  0000 C CNN
 F 1 "PJ301BM" H 10400 1800 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 10750 1700 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 10750 1700 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 10750 1700 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 10400 1500 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 10400 1500 50  0001 C CNN "MFP"
@@ -590,7 +590,7 @@ U 1 1 59D9C0B1
 P 10600 2300
 F 0 "J15" H 10400 2100 50  0000 C CNN
 F 1 "PJ301BM" H 10400 2500 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 10750 2400 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 10750 2400 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 10750 2400 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 10400 2200 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 10400 2200 50  0001 C CNN "MFP"
@@ -614,7 +614,7 @@ U 1 1 59D9C0C2
 P 10600 3000
 F 0 "J17" H 10400 2800 50  0000 C CNN
 F 1 "PJ301BM" H 10400 3200 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 10750 3100 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 10750 3100 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 10750 3100 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 10400 2900 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 10400 2900 50  0001 C CNN "MFP"
@@ -638,7 +638,7 @@ U 1 1 59D9C0D3
 P 10600 3700
 F 0 "J19" H 10400 3500 50  0000 C CNN
 F 1 "PJ301BM" H 10400 3900 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 10750 3800 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 10750 3800 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 10750 3800 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 10400 3600 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 10400 3600 50  0001 C CNN "MFP"
@@ -662,7 +662,7 @@ U 1 1 59D9C0E4
 P 10600 4400
 F 0 "J21" H 10400 4200 50  0000 C CNN
 F 1 "PJ301BM" H 10400 4600 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 10750 4500 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 10750 4500 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 10750 4500 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 10400 4300 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 10400 4300 50  0001 C CNN "MFP"
@@ -686,7 +686,7 @@ U 1 1 59D9C0F5
 P 10600 5100
 F 0 "J23" H 10400 4900 50  0000 C CNN
 F 1 "PJ301BM" H 10400 5300 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 10750 5200 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 10750 5200 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 10750 5200 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 10400 5000 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 10400 5000 50  0001 C CNN "MFP"
@@ -710,7 +710,7 @@ U 1 1 59D9C106
 P 10600 5800
 F 0 "J25" H 10400 5600 50  0000 C CNN
 F 1 "PJ301BM" H 10400 6000 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 10750 5900 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 10750 5900 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 10750 5900 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 10400 5700 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 10400 5700 50  0001 C CNN "MFP"
@@ -902,7 +902,7 @@ U 1 1 59DF34A9
 P 1100 5200
 F 0 "J7" H 900 5000 50  0000 C CNN
 F 1 "PJ301BM" H 900 5400 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 1250 5300 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 1250 5300 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 1250 5300 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 900 5100 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 900 5100 50  0001 C CNN "MFP"
@@ -993,7 +993,7 @@ U 1 1 59DFAD0D
 P 1100 6700
 F 0 "J8" H 900 6500 50  0000 C CNN
 F 1 "PJ301BM" H 900 6900 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 1250 6800 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 1250 6800 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 1250 6800 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 900 6600 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 900 6600 50  0001 C CNN "MFP"
@@ -1084,7 +1084,7 @@ U 1 1 59DFB737
 P 3500 5200
 F 0 "J9" H 3300 5000 50  0000 C CNN
 F 1 "PJ301BM" H 3300 5400 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 3650 5300 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 3650 5300 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 3650 5300 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 3300 5100 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 3300 5100 50  0001 C CNN "MFP"
@@ -1175,7 +1175,7 @@ U 1 1 59DFB784
 P 3500 6700
 F 0 "J10" H 3300 6500 50  0000 C CNN
 F 1 "PJ301BM" H 3300 6900 50  0000 C CNN
-F 2 "w_connector:PJ301BM" H 3650 6800 50  0001 C CNN
+F 2 "w_connector:PJ301M-12_Compact" H 3650 6800 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/wqp-pj3010bm-34.html" H 3650 6800 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 3300 6600 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301BM" H 3300 6600 50  0001 C CNN "MFP"
@@ -1291,7 +1291,7 @@ U 1 1 59DD452A
 P 6000 1500
 F 0 "J1" H 5800 1300 50  0000 C CNN
 F 1 "PJ301CM" H 5800 1700 50  0000 C CNN
-F 2 "w_connector:PJ301CM_OFFSET" H 6150 1600 50  0001 C CNN
+F 2 "w_connector:PJ366ST_Compact" H 6150 1600 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ301CM-40.html" H 6150 1600 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 5800 1400 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301CM" H 5800 1400 50  0001 C CNN "MFP"
@@ -1304,7 +1304,7 @@ U 1 1 59DD4899
 P 7800 3300
 F 0 "J2" H 7600 3100 50  0000 C CNN
 F 1 "PJ301CM" H 7600 3500 50  0000 C CNN
-F 2 "w_connector:PJ301CM_OFFSET" H 7950 3400 50  0001 C CNN
+F 2 "w_connector:PJ366ST_Compact" H 7950 3400 50  0001 C CNN
 F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ301CM-40.html" H 7950 3400 50  0001 C CNN
 F 4 "Wenzhou QingPu Electronics" H 7600 3200 50  0001 C CNN "MFN"
 F 5 "WQP-PJ301CM" H 7600 3200 50  0001 C CNN "MFP"
