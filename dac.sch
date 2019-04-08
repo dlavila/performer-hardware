@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 8
 Title "PER|FORMER eurorack sequencer"
-Date "2018-10-09"
-Rev "1.0"
+Date "2019-04-10"
+Rev "1.1"
 Comp "westlicht"
 Comment1 "cc-by-nc-sa"
 Comment2 ""
@@ -885,6 +885,56 @@ F 3 "" H 1200 6400 50  0001 C CNN
 	1    1200 6400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Amplifier_Operational:OPA4134 U15
+U 5 1 5C9E7D11
+P 10650 3300
+F 0 "U15" H 10608 3346 50  0000 L CNN
+F 1 "OPA4172" H 10608 3255 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10600 3400 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 10700 3500 50  0001 C CNN
+F 4 "Texas Instruments" H 10608 3446 50  0001 C CNN "MFN"
+F 5 "OPA4172IDR" H 10608 3446 50  0001 C CNN "MFP"
+F 6 "SOIC-14" H 10608 3446 50  0001 C CNN "Package"
+	5    10650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0122
+U 1 1 5CA2C6DE
+P 10100 3000
+F 0 "#PWR0122" H 10100 2850 50  0001 C CNN
+F 1 "+12V" H 10100 3140 50  0000 C CNN
+F 2 "" H 10100 3000 50  0001 C CNN
+F 3 "" H 10100 3000 50  0001 C CNN
+	1    10100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR0123
+U 1 1 5CA2C6E4
+P 10100 3600
+F 0 "#PWR0123" H 10100 3700 50  0001 C CNN
+F 1 "-12V" H 10100 3750 50  0000 C CNN
+F 2 "" H 10100 3600 50  0001 C CNN
+F 3 "" H 10100 3600 50  0001 C CNN
+	1    10100 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Amplifier_Operational:OPA4134 U4
+U 5 1 5CA2C6EA
+P 10200 3300
+F 0 "U4" H 10158 3346 50  0000 L CNN
+F 1 "OPA4172" H 10158 3255 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10150 3400 50  0001 C CNN
+F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24903049&ppid=47153707&sid=370&sig=086dfac" H 10250 3500 50  0001 C CNN
+F 4 "Texas Instruments" H 10158 3446 50  0001 C CNN "MFN"
+F 5 "OPA4172IDR" H 10158 3446 50  0001 C CNN "MFP"
+F 6 "SOIC-14" H 10158 3446 50  0001 C CNN "Package"
+	5    10200 3300
+	1    0    0    -1  
+$EndComp
 Text GLabel 4100 5300 2    51   Output ~ 0
 DAC1
 Text GLabel 4100 5400 2    51   Output ~ 0
@@ -1189,25 +1239,6 @@ Wire Notes Line
 	600  7700 5700 7700
 Wire Notes Line
 	5700 7700 5700 4400
-Connection ~ 5200 1800
-Connection ~ 7400 1800
-Connection ~ 9600 1800
-Connection ~ 3000 3500
-Connection ~ 5200 3500
-Connection ~ 7400 3500
-Connection ~ 9600 3500
-Connection ~ 10400 1200
-Connection ~ 10400 2200
-Connection ~ 10400 1700
-Connection ~ 10700 1700
-Connection ~ 5000 6000
-Connection ~ 5000 5500
-Connection ~ 2100 5400
-Connection ~ 1800 5400
-Connection ~ 1500 5900
-Connection ~ 1200 5900
-Connection ~ 2800 5300
-Connection ~ 2700 6000
 Wire Wire Line
 	7400 1800 7400 2000
 Wire Wire Line
@@ -1242,58 +1273,6 @@ Wire Wire Line
 	2800 5300 2800 5700
 Wire Wire Line
 	2700 6000 2700 6100
-$Comp
-L Amplifier_Operational:OPA4134 U15
-U 5 1 5C9E7D11
-P 10650 3300
-F 0 "U15" H 10608 3346 50  0000 L CNN
-F 1 "OPA4172" H 10608 3255 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10600 3400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 10700 3500 50  0001 C CNN
-	5    10650 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR0122
-U 1 1 5CA2C6DE
-P 10100 3000
-F 0 "#PWR0122" H 10100 2850 50  0001 C CNN
-F 1 "+12V" H 10100 3140 50  0000 C CNN
-F 2 "" H 10100 3000 50  0001 C CNN
-F 3 "" H 10100 3000 50  0001 C CNN
-	1    10100 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:-12V #PWR0123
-U 1 1 5CA2C6E4
-P 10100 3600
-F 0 "#PWR0123" H 10100 3700 50  0001 C CNN
-F 1 "-12V" H 10100 3750 50  0000 C CNN
-F 2 "" H 10100 3600 50  0001 C CNN
-F 3 "" H 10100 3600 50  0001 C CNN
-	1    10100 3600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:OPA4134 U4
-U 5 1 5CA2C6EA
-P 10200 3300
-F 0 "U4" H 10158 3346 50  0000 L CNN
-F 1 "OPA4172" H 10158 3255 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 10150 3400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/opa134.pdf" H 10250 3500 50  0001 C CNN
-	5    10200 3300
-	1    0    0    -1  
-$EndComp
-Connection ~ 2000 1400
-Connection ~ 2000 3100
-Connection ~ 4200 1400
-Connection ~ 4200 3100
-Connection ~ 6400 1400
-Connection ~ 6400 3100
-Connection ~ 8600 1400
-Connection ~ 8600 3100
 Wire Wire Line
 	2000 1400 2000 1700
 Wire Wire Line
@@ -1308,22 +1287,18 @@ Wire Wire Line
 	2800 1700 2800 1300
 Wire Wire Line
 	2800 1300 2700 1300
-Connection ~ 2800 1300
 Wire Wire Line
 	2000 1700 2000 2000
 Wire Wire Line
 	2000 2000 2200 2000
-Connection ~ 2000 1700
 Wire Wire Line
 	3000 1300 3000 1400
 Wire Wire Line
 	3000 1800 3000 2000
 Wire Wire Line
 	3000 2000 2500 2000
-Connection ~ 3000 1800
 Wire Wire Line
 	2200 3400 2000 3400
-Connection ~ 2000 3400
 Wire Wire Line
 	2000 3400 2000 3700
 Wire Wire Line
@@ -1332,7 +1307,6 @@ Wire Wire Line
 	2800 3400 2800 3000
 Wire Wire Line
 	2800 3000 2700 3000
-Connection ~ 2800 3000
 Wire Wire Line
 	3000 3000 3000 3100
 Wire Wire Line
@@ -1345,7 +1319,6 @@ Wire Wire Line
 	4200 3100 4200 3400
 Wire Wire Line
 	4200 3400 4400 3400
-Connection ~ 4200 3400
 Wire Wire Line
 	4200 3400 4200 3700
 Wire Wire Line
@@ -1358,7 +1331,6 @@ Wire Wire Line
 	5000 3000 5000 3400
 Wire Wire Line
 	5000 3400 4700 3400
-Connection ~ 5000 3000
 Wire Wire Line
 	5000 3000 5200 3000
 Wire Wire Line
@@ -1377,14 +1349,12 @@ Wire Wire Line
 	4400 2000 4200 2000
 Wire Wire Line
 	4400 1700 4200 1700
-Connection ~ 4200 1700
 Wire Wire Line
 	4200 1700 4200 2000
 Wire Wire Line
 	4700 1700 5000 1700
 Wire Wire Line
 	5000 1700 5000 1300
-Connection ~ 5000 1300
 Wire Wire Line
 	5000 1300 5200 1300
 Wire Wire Line
@@ -1393,7 +1363,6 @@ Wire Wire Line
 	6400 3100 6400 3400
 Wire Wire Line
 	6400 3400 6600 3400
-Connection ~ 6400 3400
 Wire Wire Line
 	6400 3400 6400 3700
 Wire Wire Line
@@ -1402,19 +1371,16 @@ Wire Wire Line
 	7200 3400 7200 3000
 Wire Wire Line
 	7200 3000 7100 3000
-Connection ~ 7200 3000
 Wire Wire Line
 	7200 1300 7200 1700
 Wire Wire Line
 	7200 1700 6900 1700
 Wire Wire Line
 	6600 1700 6400 1700
-Connection ~ 6400 1700
 Wire Wire Line
 	6400 1700 6400 2000
 Wire Wire Line
 	7100 1300 7200 1300
-Connection ~ 7200 1300
 Wire Wire Line
 	7400 1300 7400 1400
 Wire Wire Line
@@ -1429,7 +1395,6 @@ Wire Wire Line
 	8600 3700 8800 3700
 Wire Wire Line
 	8600 3400 8800 3400
-Connection ~ 8600 3400
 Wire Wire Line
 	8600 3400 8600 3700
 Wire Wire Line
@@ -1438,7 +1403,6 @@ Wire Wire Line
 	9400 3400 9400 3000
 Wire Wire Line
 	9400 3000 9300 3000
-Connection ~ 9400 3000
 Wire Wire Line
 	9600 3000 9600 3100
 Wire Wire Line
@@ -1447,14 +1411,56 @@ Wire Wire Line
 	9400 1700 9100 1700
 Wire Wire Line
 	8800 1700 8600 1700
-Connection ~ 8600 1700
 Wire Wire Line
 	8600 1700 8600 2000
 Wire Wire Line
 	8600 2000 8800 2000
 Wire Wire Line
 	9400 1300 9300 1300
-Connection ~ 9400 1300
 Wire Wire Line
 	9600 1300 9600 1400
+Connection ~ 5200 1800
+Connection ~ 7400 1800
+Connection ~ 9600 1800
+Connection ~ 3000 3500
+Connection ~ 5200 3500
+Connection ~ 7400 3500
+Connection ~ 9600 3500
+Connection ~ 10400 1200
+Connection ~ 10400 2200
+Connection ~ 10400 1700
+Connection ~ 10700 1700
+Connection ~ 5000 6000
+Connection ~ 5000 5500
+Connection ~ 2100 5400
+Connection ~ 1800 5400
+Connection ~ 1500 5900
+Connection ~ 1200 5900
+Connection ~ 2800 5300
+Connection ~ 2700 6000
+Connection ~ 2000 1400
+Connection ~ 2000 3100
+Connection ~ 4200 1400
+Connection ~ 4200 3100
+Connection ~ 6400 1400
+Connection ~ 6400 3100
+Connection ~ 8600 1400
+Connection ~ 8600 3100
+Connection ~ 2800 1300
+Connection ~ 2000 1700
+Connection ~ 3000 1800
+Connection ~ 2000 3400
+Connection ~ 2800 3000
+Connection ~ 4200 3400
+Connection ~ 5000 3000
+Connection ~ 4200 1700
+Connection ~ 5000 1300
+Connection ~ 6400 3400
+Connection ~ 7200 3000
+Connection ~ 6400 1700
+Connection ~ 7200 1300
+Connection ~ 8600 3400
+Connection ~ 9400 3000
+Connection ~ 8600 1700
+Connection ~ 9400 1300
 $EndSCHEMATC

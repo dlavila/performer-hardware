@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 8
 Title "PER|FORMER eurorack sequencer"
-Date "2018-10-09"
-Rev "1.0"
+Date "2019-04-10"
+Rev "1.1"
 Comp "westlicht"
 Comment1 "cc-by-nc-sa"
 Comment2 ""
@@ -885,28 +885,6 @@ Wire Wire Line
 	4000 3000 4100 3000
 Wire Wire Line
 	4600 3000 4600 3100
-Connection ~ 1500 1300
-Connection ~ 1500 1700
-Connection ~ 2000 1600
-Connection ~ 2000 1400
-Connection ~ 2100 1500
-Connection ~ 2000 1500
-Connection ~ 3000 1500
-Connection ~ 7800 1300
-Connection ~ 6800 1300
-Connection ~ 8100 1300
-Connection ~ 10300 1300
-Connection ~ 9300 1300
-Connection ~ 10600 1300
-Connection ~ 5300 1300
-Connection ~ 4200 1300
-Connection ~ 5600 1300
-Connection ~ 4600 3500
-Connection ~ 4900 3000
-Connection ~ 1400 3100
-Connection ~ 4600 3000
-Connection ~ 2000 1300
-Connection ~ 2000 1700
 Wire Wire Line
 	1500 1300 2000 1300
 Wire Wire Line
@@ -957,4 +935,26 @@ Wire Wire Line
 	2000 1300 2100 1300
 Wire Wire Line
 	2000 1700 2100 1700
+Connection ~ 1500 1300
+Connection ~ 1500 1700
+Connection ~ 2000 1600
+Connection ~ 2000 1400
+Connection ~ 2100 1500
+Connection ~ 2000 1500
+Connection ~ 3000 1500
+Connection ~ 7800 1300
+Connection ~ 6800 1300
+Connection ~ 8100 1300
+Connection ~ 10300 1300
+Connection ~ 9300 1300
+Connection ~ 10600 1300
+Connection ~ 5300 1300
+Connection ~ 4200 1300
+Connection ~ 5600 1300
+Connection ~ 4600 3500
+Connection ~ 4900 3000
+Connection ~ 1400 3100
+Connection ~ 4600 3000
+Connection ~ 2000 1300
+Connection ~ 2000 1700
 $EndSCHEMATC

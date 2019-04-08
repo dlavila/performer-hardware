@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 8
 Title "PER|FORMER eurorack sequencer"
-Date "2018-10-09"
-Rev "1.0"
+Date "2019-04-10"
+Rev "1.1"
 Comp "westlicht"
 Comment1 "cc-by-nc-sa"
 Comment2 ""
@@ -384,9 +384,9 @@ P 7600 3900
 F 0 "JP1" H 7400 4350 50  0000 L CNN
 F 1 "USB_A" H 7400 4250 50  0000 L CNN
 F 2 "w_connector:Kycon_USB_KUSBVLPX-AS1N" H 7750 3850 50  0001 C CNN
-F 3 "http://datasheet.octopart.com/105057-0001-Molex-datasheet-48881000.pdf" H 7750 3850 50  0001 C CNN
-F 4 "Molex" H 7600 3900 60  0001 C CNN "MFN"
-F 5 "105057-0001" H 7600 3900 60  0001 C CNN "MFP"
+F 3 "https://www.mouser.ch/datasheet/2/222/Kycon_01302017_KUSBVLPX-AS1N-x-1174221.pdf" H 7750 3850 50  0001 C CNN
+F 4 "Kycon" H 7600 3900 60  0001 C CNN "MFN"
+F 5 "KUSBVLPX-AS1N-B" H 7600 3900 60  0001 C CNN "MFP"
 	1    7600 3900
 	1    0    0    -1  
 $EndComp
@@ -1320,66 +1320,6 @@ Wire Notes Line
 	6600 6400 6600 600 
 Wire Notes Line
 	600  6400 600  600 
-Connection ~ 4000 3900
-Connection ~ 4000 2500
-Connection ~ 4000 1100
-Connection ~ 2000 5200
-Connection ~ 1700 5200
-Connection ~ 2000 5700
-Connection ~ 1700 5700
-Connection ~ 5200 5900
-Connection ~ 5200 6000
-Connection ~ 2300 5700
-Connection ~ 2300 5200
-Connection ~ 1400 5200
-Connection ~ 1400 5700
-Connection ~ 3700 2900
-Connection ~ 3700 4300
-Connection ~ 3700 1500
-Connection ~ 3600 2800
-Connection ~ 3600 1600
-Connection ~ 9700 4100
-Connection ~ 9700 4200
-Connection ~ 9700 4600
-Connection ~ 9700 4700
-Connection ~ 9700 4800
-Connection ~ 9700 4900
-Connection ~ 9700 5000
-Connection ~ 9700 5500
-Connection ~ 9700 5600
-Connection ~ 7600 4400
-Connection ~ 5600 4800
-Connection ~ 5500 4800
-Connection ~ 5400 4800
-Connection ~ 5700 4800
-Connection ~ 5300 5300
-Connection ~ 5400 5400
-Connection ~ 5500 5500
-Connection ~ 5600 5600
-Connection ~ 5700 5700
-Connection ~ 1500 1900
-Connection ~ 1500 1800
-Connection ~ 1500 1700
-Connection ~ 1500 1600
-Connection ~ 4000 6000
-Connection ~ 4000 5900
-Connection ~ 8600 1100
-Connection ~ 8400 1100
-Connection ~ 8000 1100
-Connection ~ 8000 2200
-Connection ~ 8200 1100
-Connection ~ 8200 1800
-Connection ~ 8400 1700
-Connection ~ 8600 2800
-Connection ~ 9500 5200
-Connection ~ 9700 5800
-Connection ~ 3400 2700
-Connection ~ 2700 2600
-Connection ~ 3400 2600
-Connection ~ 2300 2900
-Connection ~ 2700 3400
-NoConn ~ 4100 5600
-NoConn ~ 4100 4500
 Wire Wire Line
 	4000 3900 4000 4400
 Wire Wire Line
@@ -1496,4 +1436,64 @@ Wire Wire Line
 	2300 2900 2400 2900
 Wire Wire Line
 	2700 3400 2700 3500
+Connection ~ 4000 3900
+Connection ~ 4000 2500
+Connection ~ 4000 1100
+Connection ~ 2000 5200
+Connection ~ 1700 5200
+Connection ~ 2000 5700
+Connection ~ 1700 5700
+Connection ~ 5200 5900
+Connection ~ 5200 6000
+Connection ~ 2300 5700
+Connection ~ 2300 5200
+Connection ~ 1400 5200
+Connection ~ 1400 5700
+Connection ~ 3700 2900
+Connection ~ 3700 4300
+Connection ~ 3700 1500
+Connection ~ 3600 2800
+Connection ~ 3600 1600
+Connection ~ 9700 4100
+Connection ~ 9700 4200
+Connection ~ 9700 4600
+Connection ~ 9700 4700
+Connection ~ 9700 4800
+Connection ~ 9700 4900
+Connection ~ 9700 5000
+Connection ~ 9700 5500
+Connection ~ 9700 5600
+Connection ~ 7600 4400
+Connection ~ 5600 4800
+Connection ~ 5500 4800
+Connection ~ 5400 4800
+Connection ~ 5700 4800
+Connection ~ 5300 5300
+Connection ~ 5400 5400
+Connection ~ 5500 5500
+Connection ~ 5600 5600
+Connection ~ 5700 5700
+Connection ~ 1500 1900
+Connection ~ 1500 1800
+Connection ~ 1500 1700
+Connection ~ 1500 1600
+Connection ~ 4000 6000
+Connection ~ 4000 5900
+Connection ~ 8600 1100
+Connection ~ 8400 1100
+Connection ~ 8000 1100
+Connection ~ 8000 2200
+Connection ~ 8200 1100
+Connection ~ 8200 1800
+Connection ~ 8400 1700
+Connection ~ 8600 2800
+Connection ~ 9500 5200
+Connection ~ 9700 5800
+Connection ~ 3400 2700
+Connection ~ 2700 2600
+Connection ~ 3400 2600
+Connection ~ 2300 2900
+Connection ~ 2700 3400
+NoConn ~ 4100 5600
+NoConn ~ 4100 4500
 $EndSCHEMATC

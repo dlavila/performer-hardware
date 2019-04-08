@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 8
 Title "PER|FORMER eurorack sequencer"
-Date "2018-10-09"
-Rev "1.0"
+Date "2019-04-10"
+Rev "1.1"
 Comp "westlicht"
 Comment1 "cc-by-nc-sa"
 Comment2 ""
@@ -843,41 +843,6 @@ Wire Notes Line
 	6600 7700 600  7700
 Wire Notes Line
 	2600 7700 2600 5800
-Connection ~ 1100 7000
-Connection ~ 1100 6800
-Connection ~ 5700 1100
-Connection ~ 5800 1100
-Connection ~ 5600 1100
-Connection ~ 5800 5300
-Connection ~ 7000 6000
-Connection ~ 7500 5500
-Connection ~ 7500 6000
-Connection ~ 900  2150
-Connection ~ 5200 6600
-Connection ~ 5800 6700
-Connection ~ 8600 5500
-Connection ~ 8900 5500
-Connection ~ 9200 5500
-Connection ~ 8600 6000
-Connection ~ 8900 6000
-Connection ~ 9200 6000
-Connection ~ 10000 5500
-Connection ~ 10000 6000
-Connection ~ 1400 2250
-Connection ~ 1400 2050
-NoConn ~ 3600 6500
-NoConn ~ 3600 6800
-NoConn ~ 3600 6900
-NoConn ~ 1200 6900
-NoConn ~ 1500 2000
-NoConn ~ 1500 3500
-NoConn ~ 10100 4200
-NoConn ~ 10100 4100
-NoConn ~ 10100 4000
-NoConn ~ 10100 3900
-NoConn ~ 10100 3700
-NoConn ~ 1500 3300
-NoConn ~ 1500 3400
 Wire Wire Line
 	1100 7000 1100 7100
 Wire Wire Line
@@ -924,4 +889,39 @@ Wire Wire Line
 	1400 2250 1400 2300
 Wire Wire Line
 	1400 2050 1400 2100
+Connection ~ 1100 7000
+Connection ~ 1100 6800
+Connection ~ 5700 1100
+Connection ~ 5800 1100
+Connection ~ 5600 1100
+Connection ~ 5800 5300
+Connection ~ 7000 6000
+Connection ~ 7500 5500
+Connection ~ 7500 6000
+Connection ~ 900  2150
+Connection ~ 5200 6600
+Connection ~ 5800 6700
+Connection ~ 8600 5500
+Connection ~ 8900 5500
+Connection ~ 9200 5500
+Connection ~ 8600 6000
+Connection ~ 8900 6000
+Connection ~ 9200 6000
+Connection ~ 10000 5500
+Connection ~ 10000 6000
+Connection ~ 1400 2250
+Connection ~ 1400 2050
+NoConn ~ 3600 6500
+NoConn ~ 3600 6800
+NoConn ~ 3600 6900
+NoConn ~ 1200 6900
+NoConn ~ 1500 2000
+NoConn ~ 1500 3500
+NoConn ~ 10100 4200
+NoConn ~ 10100 4100
+NoConn ~ 10100 4000
+NoConn ~ 10100 3900
+NoConn ~ 10100 3700
+NoConn ~ 1500 3300
+NoConn ~ 1500 3400
 $EndSCHEMATC
