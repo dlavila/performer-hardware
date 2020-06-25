@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:sequencer-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -33,7 +32,7 @@ U 1 1 59D8CB67
 P 4100 5300
 F 0 "U11" H 4600 4450 60  0000 C CNN
 F 1 "74HC165" H 4600 5450 60  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4100 5300 60  0001 C CNN
+F 2 "w_ic:SOIC-16" H 4100 5300 60  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24916538&ppid=35776&sid=370&sig=03765d0" H 4100 5300 60  0001 C CNN
 F 4 "Texas Instruments" H 4600 4550 50  0001 C CNN "MFN"
 F 5 "SN74HC165D" H 4600 4550 50  0001 C CNN "MFP"
@@ -47,7 +46,7 @@ U 1 1 59D8CB9A
 P 4100 1100
 F 0 "U12" H 4600 250 60  0000 C CNN
 F 1 "74HC595" H 4600 1250 60  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4100 1100 60  0001 C CNN
+F 2 "w_ic:SOIC-16" H 4100 1100 60  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe" H 4100 1100 60  0001 C CNN
 F 4 "Texas Instruments" H 4600 350 50  0001 C CNN "MFN"
 F 5 "SN74HC595D" H 4600 350 50  0001 C CNN "MFP"
@@ -61,7 +60,7 @@ U 1 1 59DABD8B
 P 4100 2500
 F 0 "U13" H 4600 1650 60  0000 C CNN
 F 1 "74HC595" H 4600 2650 60  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4100 2500 60  0001 C CNN
+F 2 "w_ic:SOIC-16" H 4100 2500 60  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe" H 4100 2500 60  0001 C CNN
 F 4 "Texas Instruments" H 4600 1750 50  0001 C CNN "MFN"
 F 5 "SN74HC595D" H 4600 1750 50  0001 C CNN "MFP"
@@ -75,7 +74,7 @@ U 1 1 59DABDC7
 P 4100 3900
 F 0 "U14" H 4600 3050 60  0000 C CNN
 F 1 "74HC595" H 4600 4050 60  0000 C CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4100 3900 60  0001 C CNN
+F 2 "w_ic:SOIC-16" H 4100 3900 60  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24917219&ppid=44183&sid=370&sig=036bbbe" H 4100 3900 60  0001 C CNN
 F 4 "Texas Instruments" H 4600 3150 50  0001 C CNN "MFN"
 F 5 "SN74HC595D" H 4600 3150 50  0001 C CNN "MFP"
